@@ -11,6 +11,8 @@
 		DD04467C23E3D3C000F0EDB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD04467B23E3D3C000F0EDB5 /* ViewController.swift */; };
 		DD04467E23E3D3C100F0EDB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD04467D23E3D3C100F0EDB5 /* Assets.xcassets */; };
 		DD04468123E3D3C100F0EDB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD04467F23E3D3C100F0EDB5 /* Main.storyboard */; };
+		DD04468A23E3D46100F0EDB5 /* textFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD04468923E3D46100F0EDB5 /* textFile.txt */; };
+		DD80DD9D23E5F40800726C8F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD80DD9C23E5F40800726C8F /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		DD04468023E3D3C100F0EDB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD04468223E3D3C100F0EDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD04468323E3D3C100F0EDB5 /* TrialOneMillion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrialOneMillion.entitlements; sourceTree = "<group>"; };
+		DD04468923E3D46100F0EDB5 /* textFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textFile.txt; sourceTree = "<group>"; };
+		DD80DD9C23E5F40800726C8F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 				DD04467923E3D3C000F0EDB5 /* AppDelegate.swift */,
 				DD04467B23E3D3C000F0EDB5 /* ViewController.swift */,
 				DD04467D23E3D3C100F0EDB5 /* Assets.xcassets */,
+				DD04468923E3D46100F0EDB5 /* textFile.txt */,
 				DD04467F23E3D3C100F0EDB5 /* Main.storyboard */,
+				DD80DD9C23E5F40800726C8F /* AddViewController.swift */,
 				DD04468223E3D3C100F0EDB5 /* Info.plist */,
 				DD04468323E3D3C100F0EDB5 /* TrialOneMillion.entitlements */,
 			);
@@ -122,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD04467E23E3D3C100F0EDB5 /* Assets.xcassets in Resources */,
+				DD04468A23E3D46100F0EDB5 /* textFile.txt in Resources */,
 				DD04468123E3D3C100F0EDB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			files = (
 				DD04467C23E3D3C000F0EDB5 /* ViewController.swift in Sources */,
 				DD04467A23E3D3C000F0EDB5 /* AppDelegate.swift in Sources */,
+				DD80DD9D23E5F40800726C8F /* AddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
